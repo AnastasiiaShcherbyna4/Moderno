@@ -29,7 +29,9 @@ h6 {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
+  color: $text;
 }
 
 button:focus,
@@ -38,14 +40,15 @@ input:focus {
 }
 
 body {
-  margin: 0;
-  font-family: Quicksand, sans-serif;
-  font-size: 16px;
-  line-height: 1;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: $text;
   font-weight: 400;
-  overflow-x: hidden;
-  min-width: 320px;
-  background-color: #fff;
-  font-style: normal;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
