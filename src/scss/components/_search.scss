@@ -17,14 +17,14 @@
     &__inner-title {
         margin-bottom: 10px;
         font-size: 48px;
-        font-weight: 700;
+        @include f700;
         line-height: 72px;
     }
 
     &__inner-text {
         margin-bottom: 50px;
         font-size: 20px;
-        font-weight: 500;
+        @include f500;
         line-height: 30px;
     }
 
@@ -41,7 +41,7 @@
             height: 56px;
             border: none;
             font-size: 14px;
-            font-weight: 500;
+            @include f500;
             outline: none;
             padding-left: 25px;
             padding-right: 60px;
@@ -52,7 +52,7 @@
 
             &::placeholder {
                 color: #90a4ae;
-                font-weight: 500;
+                @include f500;
             }
         }
 
@@ -66,4 +66,5 @@
         }
     }
 }
+
 // end search

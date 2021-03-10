@@ -67,7 +67,7 @@ body {
 
 .title {
   color: $bg;
-  font-weight: 700;
+  @include f700;
   font-size: 36px;
   text-align: center;
   line-height: 60px;
@@ -77,4 +77,8 @@ body {
 .rate-star {
   display: inline-block;
   margin-right: 13px;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
 }
