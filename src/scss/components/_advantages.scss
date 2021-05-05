@@ -1,0 +1,82 @@
+//start advantages
+.advantages {
+    background-color: $bg;
+    padding: 110px 0;
+}
+
+.advantages__title {
+    color: #fff;
+}
+
+.advantages__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__item {
+    max-width: 370px;
+    text-align: center;
+    padding: 0 15px;
+
+    &:hover {
+        .advantages__item-images {
+            background-color: $green;
+        }
+
+        .advantages__item-title {
+            color: $green;
+        }
+
+        .advantages__item-images {
+
+            path {
+                fill: #fff;
+            }
+        }
+    }
+
+    &-images {
+        width: 114px;
+        height: 114px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 30px;
+        transition: all .3s;
+    }
+
+    &-title {
+        margin-bottom: 25px;
+        color: #fff;
+        font-size: 24px;
+        @include f500;
+        transition: all .3s;
+    }
+
+    &-text {
+        font-size: 15px;
+        color: #b0bec5;
+    }
+}
+
+.icoscvg-1 {
+    svg {
+        width: 50px;
+    }
+}
+
+.icoscvg-2 {
+    svg {
+        width: 70px;
+    }
+}
+
+.icoscvg-3 {
+    svg {
+        width: 86px;
+    }
+}
+
+//end advantages
